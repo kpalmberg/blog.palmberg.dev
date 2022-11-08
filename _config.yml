@@ -38,7 +38,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Kevin Palmberg
-  email: blog@palmberg.dev             # change to your email address
+  email: blog@palmberg.dev
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/kpalmberg      # change to your github homepage
@@ -105,10 +105,10 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled:      # boolean, keep empty means false
+    enabled: true     # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
+    #env:          # [development|production]
 
 pwa:
   enabled: true   # the option for PWA feature
